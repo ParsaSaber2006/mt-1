@@ -1,8 +1,13 @@
-import { createVuetify } from 'vuetify';
+import { defineNuxtPlugin } from 'nuxt/app'
+import 'vuetify/styles'
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
 
 export default defineNuxtPlugin((nuxtApp) => {
   const vuetify = createVuetify({
-    // تنظیمات Vuetify
-  });
-  nuxtApp.vueApp.use(vuetify);
-});
+    components,
+    directives,
+  })
+  nuxtApp.vueApp.use(vuetify)
+})

@@ -1,28 +1,46 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from 'nuxt/config'
+import tsconfigPaths from 'vite-tsconfig-paths'
+import { fileURLToPath } from 'url'
+import { URL } from 'url'
+
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
+  compatibilityDate: '2024-07-01',
   devtools: { enabled: true },
-  modules: [
-    '@pinia/nuxt',
-    'pinia-plugin-persistedstate',
-    'vuetify-nuxt-module'
-    ],
-    css: [
-      '~/assets/scss/_variables.scss',
-      '~/assets/scss/app.scss',
-      '~/assets/scss/fonts.scss',
-      '~/assets/scss/vuetify.scss'
-    ],
-    vite: {
-      server:{
-        hmr:{
-          timeout:30000
-        }
+
+  css: [
+    'vuetify/styles',
+    '@mdi/font/css/materialdesignicons.css',
+  ],
+
+  build: {
+    transpile: ['vuetify'],
+  },
+  plugins: [
+    {src:'plugins/vuetify.ts',mode: 'all'},
+    {src:'plugins/filters.js',mode:'all'},
+    {src:'plugins/metaManager.js',mode:'all'},
+    {src:'plugins/pageBuilder.js',mode:'all'},
+    {src:'plugins/toast.js',mode:'all'},
+    {src:'plugins/vueperslides.js',mode:'all'},
+    {src:'plugins/vuetifyThemes.js',mode:'all'},
+    {src:'plugins/emitter.js',mode:'client'}
+
+  ],
+  modules: ['@pinia/nuxt'],
+
+  vite: {
+    define: {
+      'process.env.DEBUG': false,
+    },
+    resolve: {
+      alias: {
+        '@': fileURLToPath(new URL('./', import.meta.url)),
+        '~': fileURLToPath(new URL('./', import.meta.url)),
       },
-    optimizeDeps: {
-      include: [
-        'pinia-plugin-persistedstate',
-      ]
-    }
-  }
+    },
+
+    plugins: [
+      tsconfigPaths()  // ✅ این تنها پلاگینی است که در اینجا باید باشد
+    ],
+  },
 })

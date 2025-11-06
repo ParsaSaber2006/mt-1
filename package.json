@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@mdi/font": "^7.4.47",
+    "@types/node": "^24.10.0",
     "sass": "^1.89.2",
     "sass-embedded": "^1.89.2",
     "vite-tsconfig-paths": "^5.1.4",
