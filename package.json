@@ -10,15 +10,30 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@hannanmiah/light-editor": "^0.0.18",
+    "@pinia/nuxt": "^0.11.2",
     "axios": "^1.13.1",
     "install": "^0.13.0",
     "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
     "nuxt": "^4.2.0",
+    "persian-date": "^1.1.0",
     "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.4.1",
+    "sass": "^1.93.3",
     "vue": "^3.5.22",
     "vue-meta": "^2.4.0",
     "vue-router": "^4.6.3",
     "vue-toastification": "^2.0.0-rc.5",
-    "vuetify": "^3.10.8"
+    "vuedraggable": "^2.24.3",
+    "vueperslides": "^3.6.0",
+    "vuetify": "^3.10.9"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "sass": "^1.89.2",
+    "sass-embedded": "^1.89.2",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vuetify-nuxt-module": "^0.16.1"
   }
 }
