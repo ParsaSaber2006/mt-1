@@ -58,7 +58,7 @@
 </template>
 
 <script>
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 import EditAdvisor from "./Edit.vue";
 import CreateAdvisor from "./Create.vue";
 import ProfileImage from "./ProfileImage.vue";

@@ -465,7 +465,7 @@
 </template>
 
 <script>
-import { useCategoriesStore } from "@/store/categories";
+import { useCategoriesStore } from "@/stores/categories";
 import ShowAttachments from "./ShowAttachments.vue";
 
 export default {

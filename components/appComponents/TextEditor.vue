@@ -1,34 +1,29 @@
-<template >
-    <light-editor
-      v-model="content"
-      class="border rounded-x"
-      style="min-height: 150px; padding: 5px"
-    />
+<template>
+  <QuillEditor
+    v-model="content"
+    theme="snow"
+    class="border rounded-x"
+    style="min-height: 150px; padding: 5px"
+  />
 </template>
 
-<script >
-
-import { defineAsyncComponent } from 'vue';
+<script>
+import { QuillEditor } from "@vueup/vue-quill";
+import "@vueup/vue-quill/dist/vue-quill.snow.css";
 
 export default {
   name: "TextEditor",
   props: ["modelValue"],
   components: {
-    LightEditor: defineAsyncComponent({
-      loader: async () => {
-        const res = await import("@hannanmiah/light-editor");
-        return res["LightEditor"];
-      },
-    }),
+    QuillEditor,
   },
-  data: () => {
+  data() {
     return {
       content: "",
     };
   },
   watch: {
     content(newVal) {
-      
       this.$emit("update:modelValue", newVal);
     },
   },

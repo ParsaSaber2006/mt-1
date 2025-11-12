@@ -96,8 +96,8 @@
 </template>
 
 <script>
-import { useAuthStore } from "@/store/auth";
-import { useUsersStore } from "@/store/users";
+import { useAuthStore } from "@/stores/auth";
+import { useUsersStore } from "@/stores/users";
 import EditUser from "./Edit.vue";
 import EditUserWallet from "./EditWallet.vue";
 

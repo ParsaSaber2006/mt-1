@@ -52,8 +52,8 @@
 <script setup>
 import NavDrawer from "./admin/drawer.vue";
 import { computed, ref, defineCustomElement, inject } from "vue";
-import { useAuthStore } from "@/store/auth";
-import { useOptionsStore } from "@/store/options";
+import { useAuthStore } from "@/stores/auth";
+import { useOptionsStore } from "@/stores/options";
 import { useRoute, useRouter } from "vue-router";
 import { useDisplay } from "vuetify";
 

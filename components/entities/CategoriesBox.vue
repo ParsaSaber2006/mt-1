@@ -39,7 +39,7 @@
 
 <script >
 import AdvisorCard from "./AdvisorCard.vue";
-import { useCategoriesStore } from "@/store/categories";
+import { useCategoriesStore } from "@/stores/categories";
 
 export default {
   name: "CategoriesBox",

@@ -103,7 +103,7 @@
   </v-container>
 </template>
 <script>
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 import CallsReportFilter from "./CallsReportFilter.vue";
 import CallSpeechText from "./CallSpeechText.vue";
 

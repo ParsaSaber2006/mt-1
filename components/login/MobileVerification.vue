@@ -69,7 +69,7 @@
 
 <script setup>
 import { ref, reactive, onMounted, defineEmits, watch, defineProps } from "vue";
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 import { useRouter, useRoute } from "vue-router";
 import ResendTokenButton from "./ResendTokenButton.vue";
 const emit = defineEmits([

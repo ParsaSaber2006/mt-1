@@ -31,8 +31,8 @@
 </template>
 
 <script>
-import { useAuthStore } from "@/store/auth";
-import { useOptionsStore } from "@/store/options";
+import { useAuthStore } from "@/stores/auth";
+import { useOptionsStore } from "@/stores/options";
 
 export default {
   name: "collaborate",

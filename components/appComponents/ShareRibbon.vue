@@ -16,7 +16,7 @@ export default {
 </script>
 <script setup>
 import { useRouter, useRoute } from "vue-router";
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 import { computed } from "vue";
 
 const auth = useAuthStore();
@@ -40,7 +40,7 @@ function share() {
 <!-- 
 <script >
 import { useRoute } from "vue-router";
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 export default {
   props: ["items"],
   name: "breadcrumbs",

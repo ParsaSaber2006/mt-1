@@ -150,7 +150,7 @@
 </template>
 
 <script>
-import { useCategoriesStore } from "@/store/categories";
+import { useCategoriesStore } from "@/stores/categories";
 
 export default {
   props: ["data"],

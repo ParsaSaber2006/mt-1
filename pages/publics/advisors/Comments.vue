@@ -66,7 +66,7 @@
 
 <script>
 import persianDate from "persian-date";
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 
 export default {
   metaInfo() {

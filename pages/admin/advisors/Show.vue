@@ -39,8 +39,8 @@
 
 
 <script>
-import { useAuthStore } from "@/store/auth";
-import { useCategoriesStore } from "@/store/categories";
+import { useAuthStore } from "@/stores/auth";
+import { useCategoriesStore } from "@/stores/categories";
 import Summary from "./Summary.vue";
 import Edit from "./Edit.vue";
 import ProfileImage from "./ProfileImage.vue";

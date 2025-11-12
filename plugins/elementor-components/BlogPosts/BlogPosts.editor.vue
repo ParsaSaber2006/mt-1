@@ -30,7 +30,7 @@
 
 <script>
 
-import { usePostCategoriesStore } from '@/store/postCategories';
+import { usePostCategoriesStore } from '@/stores/postCategories';
 
 export default {
   props: ["data"],

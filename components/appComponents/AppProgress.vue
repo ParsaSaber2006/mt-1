@@ -11,7 +11,7 @@
   />
 </template>
 <script>
-import { useAppProgressStore } from "@/store/appProgress";
+import { useAppProgressStore } from "@/stores/appProgress";
 
 // https://github.com/nuxt/nuxt.js/blob/master/lib/app/components/nuxt-loading.vue
 export default {

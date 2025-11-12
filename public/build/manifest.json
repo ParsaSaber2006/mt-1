@@ -1,0 +1,166 @@
+{
+  "node_modules/@hannanmiah/light-editor/dist/light-editor.es.js": {
+    "file": "assets/light-editor.es-BJEpMdi0.js",
+    "name": "light-editor.es",
+    "src": "node_modules/@hannanmiah/light-editor/dist/light-editor.es.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot": {
+    "file": "assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf": {
+    "file": "assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff": {
+    "file": "assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2": {
+    "file": "assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2"
+  },
+  "resources/fonts/iranSans.woff": {
+    "file": "assets/iranSans-BIBY-13i.woff",
+    "src": "resources/fonts/iranSans.woff"
+  },
+  "resources/fonts/kalameh/KalamehWeb-Black.woff": {
+    "file": "assets/KalamehWeb-Black-sO_mamca.woff",
+    "src": "resources/fonts/kalameh/KalamehWeb-Black.woff"
+  },
+  "resources/fonts/kalameh/KalamehWeb-Black.woff2": {
+    "file": "assets/KalamehWeb-Black-XXFICjtt.woff2",
+    "src": "resources/fonts/kalameh/KalamehWeb-Black.woff2"
+  },
+  "resources/fonts/kalameh/KalamehWeb-Bold.woff": {
+    "file": "assets/KalamehWeb-Bold-DS0OTViw.woff",
+    "src": "resources/fonts/kalameh/KalamehWeb-Bold.woff"
+  },
+  "resources/fonts/kalameh/KalamehWeb-Bold.woff2": {
+    "file": "assets/KalamehWeb-Bold-BJsjgC3W.woff2",
+    "src": "resources/fonts/kalameh/KalamehWeb-Bold.woff2"
+  },
+  "resources/fonts/kalameh/KalamehWeb-Regular.woff": {
+    "file": "assets/KalamehWeb-Regular-Dil2VM2K.woff",
+    "src": "resources/fonts/kalameh/KalamehWeb-Regular.woff"
+  },
+  "resources/fonts/kalameh/KalamehWeb-Regular.woff2": {
+    "file": "assets/KalamehWeb-Regular-DcgIj9ae.woff2",
+    "src": "resources/fonts/kalameh/KalamehWeb-Regular.woff2"
+  },
+  "resources/fonts/kalameh/KalamehWeb-Thin.woff": {
+    "file": "assets/KalamehWeb-Thin-DEthjoJU.woff",
+    "src": "resources/fonts/kalameh/KalamehWeb-Thin.woff"
+  },
+  "resources/fonts/kalameh/KalamehWeb-Thin.woff2": {
+    "file": "assets/KalamehWeb-Thin-CyN5ljov.woff2",
+    "src": "resources/fonts/kalameh/KalamehWeb-Thin.woff2"
+  },
+  "resources/fonts/morabba/Morabba-Bold.woff": {
+    "file": "assets/Morabba-Bold-B3Dxtl3Q.woff",
+    "src": "resources/fonts/morabba/Morabba-Bold.woff"
+  },
+  "resources/fonts/morabba/Morabba-Bold.woff2": {
+    "file": "assets/Morabba-Bold-Cbgld-JA.woff2",
+    "src": "resources/fonts/morabba/Morabba-Bold.woff2"
+  },
+  "resources/fonts/morabba/Morabba-Heavy.woff": {
+    "file": "assets/Morabba-Heavy-SRvyPk77.woff",
+    "src": "resources/fonts/morabba/Morabba-Heavy.woff"
+  },
+  "resources/fonts/morabba/Morabba-Heavy.woff2": {
+    "file": "assets/Morabba-Heavy-Ck9C-l_R.woff2",
+    "src": "resources/fonts/morabba/Morabba-Heavy.woff2"
+  },
+  "resources/fonts/morabba/Morabba-Regular.woff": {
+    "file": "assets/Morabba-Regular-ec3gSkiH.woff",
+    "src": "resources/fonts/morabba/Morabba-Regular.woff"
+  },
+  "resources/fonts/morabba/Morabba-Regular.woff2": {
+    "file": "assets/Morabba-Regular-GERGByj_.woff2",
+    "src": "resources/fonts/morabba/Morabba-Regular.woff2"
+  },
+  "resources/fonts/morabba/Morabba-UltraLight.woff": {
+    "file": "assets/Morabba-UltraLight-Dachg4yQ.woff",
+    "src": "resources/fonts/morabba/Morabba-UltraLight.woff"
+  },
+  "resources/fonts/morabba/Morabba-UltraLight.woff2": {
+    "file": "assets/Morabba-UltraLight-Cj8BklGA.woff2",
+    "src": "resources/fonts/morabba/Morabba-UltraLight.woff2"
+  },
+  "resources/fonts/vazir.woff": {
+    "file": "assets/vazir-CjVB_RyC.woff",
+    "src": "resources/fonts/vazir.woff"
+  },
+  "resources/fonts/yekan.woff": {
+    "file": "assets/yekan-cC0JMgGa.woff",
+    "src": "resources/fonts/yekan.woff"
+  },
+  "resources/fonts/yekan/IRANYekanX-Bold.woff": {
+    "file": "assets/IRANYekanX-Bold-4UP0kO0V.woff",
+    "src": "resources/fonts/yekan/IRANYekanX-Bold.woff"
+  },
+  "resources/fonts/yekan/IRANYekanX-Bold.woff2": {
+    "file": "assets/IRANYekanX-Bold-B3EUfDkF.woff2",
+    "src": "resources/fonts/yekan/IRANYekanX-Bold.woff2"
+  },
+  "resources/fonts/yekan/IRANYekanX-Regular.woff": {
+    "file": "assets/IRANYekanX-Regular-DpO9CZdz.woff",
+    "src": "resources/fonts/yekan/IRANYekanX-Regular.woff"
+  },
+  "resources/fonts/yekan/IRANYekanX-Regular.woff2": {
+    "file": "assets/IRANYekanX-Regular-DSgknM3V.woff2",
+    "src": "resources/fonts/yekan/IRANYekanX-Regular.woff2"
+  },
+  "resources/fonts/yekanbakh/YekanBakh-Bold.woff": {
+    "file": "assets/YekanBakh-Bold-detFCFNY.woff",
+    "src": "resources/fonts/yekanbakh/YekanBakh-Bold.woff"
+  },
+  "resources/fonts/yekanbakh/YekanBakh-Bold.woff2": {
+    "file": "assets/YekanBakh-Bold-CLAlJIzC.woff2",
+    "src": "resources/fonts/yekanbakh/YekanBakh-Bold.woff2"
+  },
+  "resources/fonts/yekanbakh/YekanBakh-ExtraBlack.woff": {
+    "file": "assets/YekanBakh-ExtraBlack-D1Zaetvf.woff",
+    "src": "resources/fonts/yekanbakh/YekanBakh-ExtraBlack.woff"
+  },
+  "resources/fonts/yekanbakh/YekanBakh-ExtraBlack.woff2": {
+    "file": "assets/YekanBakh-ExtraBlack-C1zMMxAV.woff2",
+    "src": "resources/fonts/yekanbakh/YekanBakh-ExtraBlack.woff2"
+  },
+  "resources/fonts/yekanbakh/YekanBakh-Regular.woff": {
+    "file": "assets/YekanBakh-Regular-Da5PE0-E.woff",
+    "src": "resources/fonts/yekanbakh/YekanBakh-Regular.woff"
+  },
+  "resources/fonts/yekanbakh/YekanBakh-Regular.woff2": {
+    "file": "assets/YekanBakh-Regular-3_GJaZbj.woff2",
+    "src": "resources/fonts/yekanbakh/YekanBakh-Regular.woff2"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-21NFYG7r.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/@hannanmiah/light-editor/dist/light-editor.es.js"
+    ],
+    "css": [
+      "assets/app-B9v0TQbN.css"
+    ],
+    "assets": [
+      "assets/materialdesignicons-webfont-CSr8KVlo.eot",
+      "assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+      "assets/materialdesignicons-webfont-PXm3-2wK.woff",
+      "assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+    ]
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-Bt7Eyp0A.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}

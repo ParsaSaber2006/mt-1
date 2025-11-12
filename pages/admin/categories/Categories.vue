@@ -74,8 +74,8 @@
   </v-container>
 </template>
 <script>
-import { useAuthStore } from "@/store/auth";
-import { useCategoriesStore } from "@/store/categories";
+import { useAuthStore } from "@/stores/auth";
+import { useCategoriesStore } from "@/stores/categories";
 import EditCategory from "./Edit.vue";
 import CreateCategory from "./Create.vue";
   

@@ -130,7 +130,7 @@
 
 
 <script>
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 import CategoryImage from "./CategoryImage.vue";
 
 export default {

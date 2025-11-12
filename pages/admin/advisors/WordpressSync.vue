@@ -32,8 +32,8 @@
 
 
 <script>
-import { useAuthStore } from "@/store/auth";
-import { useCategoriesStore } from "@/store/categories";
+import { useAuthStore } from "@/stores/auth";
+import { useCategoriesStore } from "@/stores/categories";
 
 export default {
   name: "edit-advisor",

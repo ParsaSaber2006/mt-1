@@ -30,8 +30,8 @@
 
 
 <script>
-import { useAuthStore } from "@/store/auth";
-import { useCategoriesStore } from "@/store/categories";
+import { useAuthStore } from "@/stores/auth";
+import { useCategoriesStore } from "@/stores/categories";
 import NotApprovedComments from "./NotApprovedComments.vue";
 import ArchivedComments from "./ArchivedComments.vue";
 

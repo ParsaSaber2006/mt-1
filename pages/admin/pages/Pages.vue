@@ -90,9 +90,9 @@
 </template>
 
 <script>
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 import CreatePage from "./Create.vue";
-import { useOptionsStore } from "@/store/options";
+import { useOptionsStore } from "@/stores/options";
 
 export default {
   name: "pages",

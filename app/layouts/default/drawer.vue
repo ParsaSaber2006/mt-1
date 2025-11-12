@@ -89,8 +89,8 @@
 
 <script setup>
 import { computed, ref, onMounted, watch, defineEmits } from "vue";
-import { useAuthStore } from "@/store/auth";
-import { useOptionsStore } from "@/store/options";
+import { useAuthStore } from "@/stores/auth";
+import { useOptionsStore } from "@/stores/options";
 import { useRoute, useRouter } from "vue-router";
 
 const emit = defineEmits(["drawerChanged"]);

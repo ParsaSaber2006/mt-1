@@ -103,7 +103,7 @@
 </template>
 
 <script>
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 import EditUser from "./Edit.vue";
 
 export default {

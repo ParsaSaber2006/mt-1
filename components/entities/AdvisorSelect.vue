@@ -16,7 +16,7 @@
 
 <script >
 
-import { useAdvisorsStore } from "@/store/advisors";
+import { useAdvisorsStore } from "@/stores/advisors";
 
 export default {
   name: "AdvisorSelect",

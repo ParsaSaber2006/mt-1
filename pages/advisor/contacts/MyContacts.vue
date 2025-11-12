@@ -45,8 +45,8 @@
   
   
   <script>
-import { useAuthStore } from "@/store/auth";
-import { useCallCenterStore } from "@/store/callCenter";
+import { useAuthStore } from "@/stores/auth";
+import { useCallCenterStore } from "@/stores/callCenter";
 
 export default {
   name: "advisor-calls",

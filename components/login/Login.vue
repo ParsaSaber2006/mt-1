@@ -109,7 +109,7 @@ export default {
 <script setup>
 import { reactive, computed, onMounted, inject } from "vue";
 import { useRouter, useRoute } from "vue-router";
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 import LoginForm from "./LoginForm.vue";
 import ResetPassword from "./ResetPassword.vue";
 import TryWithToken from "./TryWithToken.vue";

@@ -58,8 +58,8 @@
 
 
 <script>
-import { useAuthStore } from "@/store/auth";
-import { useOptionsStore } from "@/store/options";
+import { useAuthStore } from "@/stores/auth";
+import { useOptionsStore } from "@/stores/options";
 import MediaUploader from "./MediaUploader.vue";
 import { useTheme } from "vuetify/lib/framework.mjs";
 

@@ -68,7 +68,7 @@
 </template>
 
 <script>
-import { useAdvisorsStore } from "@/store/advisors";
+import { useAdvisorsStore } from "@/stores/advisors";
 import persianDate from "persian-date";
 
 export default {

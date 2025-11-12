@@ -85,8 +85,8 @@ integrationCodes<template >
 
 
 <script>
-import { useAuthStore } from "@/store/auth";
-import { useOptionsStore } from "@/store/options";
+import { useAuthStore } from "@/stores/auth";
+import { useOptionsStore } from "@/stores/options";
 import MediaUploader from "./MediaUploader.vue";
 
 export default {

@@ -442,9 +442,9 @@
 </template>
 
 <script>
-import { useAuthStore } from "@/store/auth";
-import { useCategoriesStore } from "@/store/categories";
-import { useOptionsStore } from "@/store/options";
+import { useAuthStore } from "@/stores/auth";
+import { useCategoriesStore } from "@/stores/categories";
+import { useOptionsStore } from "@/stores/options";
 import Attachments from "./Attachments.vue";
 
 export default {

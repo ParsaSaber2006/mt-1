@@ -166,7 +166,7 @@ import {
   inject,
   computed,
 } from "vue";
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 
 const optionsStore = inject("optionsStore");
 const registeration_rules = computed(() =>

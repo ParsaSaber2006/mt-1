@@ -67,7 +67,7 @@
   </v-container>
 </template>
 <script>
-import { useAuthStore } from "@/store/auth";
+import { useAuthStore } from "@/stores/auth";
 import EditPost from "./Edit.vue";
 import CreatePost from "./Create.vue";
 import axios from "axios";

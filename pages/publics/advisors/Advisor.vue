@@ -198,8 +198,8 @@
 
 <script>
 import persianDate from "persian-date";
-import { useAuthStore } from "@/store/auth";
-import { useCallCenterStore } from "@/store/callCenter";
+import { useAuthStore } from "@/stores/auth";
+import { useCallCenterStore } from "@/stores/callCenter";
 import RequestForCall from "./RequestForCall.vue";
 import CallDialogue from "./CallDialogue.vue";
 import AdvisorNewVission from "./new/AdvisorNewVission.vue";
